@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  .behined {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:#009900;
+    
+  }
+  
+  .App {
+    text-align: center;
+    background: wheat;
+    max-width: 600px;
+    border-radius: 10px;
+    margin: 0 2rem;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+  }
+  
+  .media-buttons {
+    width: 80px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .quote-elements {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  .author {
+    text-align: right;
+    margin-top: 50px;
+  }
+  
+  i {
+    color: white;
+    
+  }
+  
+  button {
+    color: white;
+    border: none;
+    background: #009900;
+  }
+  
+  h3, p {
+    color: #009900;
+  }
+  
+  .media-buttons a {
+    background-color: #009900;
+  }
